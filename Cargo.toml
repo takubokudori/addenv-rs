@@ -1,0 +1,12 @@
+[package]
+name = "addenv"
+version = "1.0.0"
+authors = ["takubokudori <takubokudori@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+clap="2.33.0"
+
+[dependencies.winapi]
+version = "0.3"
+features = ["winbase","processenv","errhandlingapi","winreg","winnt","minwindef","winerror"]
